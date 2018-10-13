@@ -18,7 +18,7 @@ public class DimensionController {
 	private Dimension dimension;
 
 	@GetMapping("/dimensions")
-	public Dimension retrieveLimitsFromConfigurations() {
+	public Dimension retrieveDimension() {
 		return new Dimension(dimension.getLength(), dimension.getBreadth(), dimension.getHeight());
 
 	}
